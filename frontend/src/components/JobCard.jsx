@@ -6,7 +6,7 @@ const JobCard = ({job}) => {
   return (
     <Link to={`/job-detail/${job?._id}`}>
       <div className='w-full md:w-[16rem] 2xl:w-[18rem]
-      rounded=md px-3 py-5'>
+      rounded=md px-3 py-4'>
 
         <div className='w-full h-full flex flex-col justify-between'>
         <div className='flex gap-3 '>

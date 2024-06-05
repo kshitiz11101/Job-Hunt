@@ -84,7 +84,7 @@ const Header = ({
               {popularSearch.map((search, index) => (
                 <span
                   key={index}
-                  className='bg-[#1d4fd826] text-[#1d4ed8] py-1 px-2 rounded-full text-sm md:text-base'
+                  className='text-blue-600 py-1.5 px-5 focus:outline-none hover:bg-blue-700 hover:text-white rounded-full text-base border border-blue-600 cursor-pointer'
                 >
                   {search}
                 </span>
@@ -93,9 +93,9 @@ const Header = ({
           )}
         </div>
 
-        <div className='w-1/4 h-full absolute top-24 md:-top-6 lg:-top-14 right-16 2xl:right-[18rem]'>
+        {/* <div className='w-1/4 h-full absolute top-24 md:-top-6 lg:-top-14 right-16 2xl:right-[18rem]'>
           <img src={HeroImage} className='object-contain' />
-        </div>
+        </div> */}
       </div>
     </div>
   );

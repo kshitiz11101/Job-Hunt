@@ -28,6 +28,11 @@ import {
     "Full-Time",
     "Sales",
     "Office Assistant",
+    "Intership",
+    "Marketing",
+    "Finance",
+    "Teaching",
+    "Freelance",
   ];
   
   export const jobs = [

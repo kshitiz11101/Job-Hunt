@@ -120,19 +120,19 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <ul className='hidden lg:flex gap-10 text-base'>
+          <ul className='hidden lg:flex gap-10 text-base '>
             <li>
-              <Link to='/'>Find Job</Link>
+              <Link to='/' className="hover:text-blue-700 hover:text-xl">Find Job</Link>
             </li>
             <li>
-              <Link to='/companies'>Companies</Link>
+              <Link to='/companies' className="hover:text-blue-700 hover:text-xl">Companies</Link>
             </li>
             <li>
-              <Link to={user?.accountType==="seeker"?'/applications':'/upload-job'}>{user?.accountType==="seeker"?"Applications":
+              <Link className="hover:text-blue-700 hover:text-xl" to={user?.accountType==="seeker"?'/applications':'/upload-job'}>{user?.accountType==="seeker"?"Applications":
               "Upload Job"}</Link>
             </li>
             <li>
-              <Link to='/about-us'>About</Link>
+              <Link to='/about-us' className="hover:text-blue-700 hover:text-xl">About</Link>
             </li>
           </ul>
 
