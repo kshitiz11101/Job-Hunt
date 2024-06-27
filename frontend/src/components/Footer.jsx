@@ -86,19 +86,19 @@ const Footer = () => {
       <div className='bg-[#001a36]'>
           <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
             <p className='text-gray-300 text-sm text-center sm:text-left'>
-              &copy; 2023 Job Finder —
+              &copy; 2024 Talent Track—
               <a
-                href='https://youtube.com/@CodeWaveWithAsante'
+                href='https://github.com/kshitiz11101'
                 className='text-[#1199e7] ml-1'
                 target='_blank'
                 rel='noopener noreferrer'
-              >
-                @CodeWave
+                
+              >@Kshitiz Sharma
               </a>
             </p>
 
             <span className='sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-300 text-sm'>
-              Designed by CodeWave
+              Designed by Kshitiz Sharma
             </span>
           </div>
         </div>

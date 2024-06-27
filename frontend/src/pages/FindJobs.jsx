@@ -7,6 +7,7 @@ import { jobTypes,experience,jobs } from '../utils/data';
 import {BsStars} from 'react-icons/bs'
 import { CustomButton,JobCard, ListBox } from "../components";
 import { apiRequest, updateURL } from '../utils';
+import { FaFilter } from 'react-icons/fa';
 const FindJobs = () => {
   const [sort,setSort]=useState('Newest');
   const [page,setPage]=useState(1);
@@ -99,7 +100,7 @@ const FindJobs = () => {
       />
       <div className='container mx-auto flex gap-6 2xl:gap-10 md: px-5 py-0 md:py-6 bg-[#f7fdfd]'>
     <div className='hidden md:flex flex-col w-1/6 h-fit bg-white shadow-sm'>
-    <p className='text-lg font-semibold text-slate-600'>Filter Search </p>
+    <p className='text-lg font-semibold text-slate-600 flex'><FaFilter/> Filter Search  </p>
     <div className='py-2'>
     <div className='flex justify-between mb-3 '>
     <p className='flex items-center gap-2 font-semibold'>
