@@ -249,11 +249,14 @@ if(isLoading){
             &&( <div className="flex items-center justify-center py-5 md:py-0 gap-4 ">
               <CustomButton
               onClick={()=>setOpenForm(true)}
+              title='Edit Profile'
               iconRight={<FiEdit3/>}
+              
             containerStyles={`py-1.5 px-3 md:px-5 focus:outline-none bg-blue-600
             hover:bg-blue-700 text-white rounded text-sm md:text-base border border-blue-600
             `}
 />
+
                 <Link to='/upload-job'>
                   <CustomButton
                     title='Upload Job'

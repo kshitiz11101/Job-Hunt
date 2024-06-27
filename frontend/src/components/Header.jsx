@@ -46,7 +46,7 @@ const Header = ({
       <div
         className={`container mx-auto px-5 ${
           type ? "h-[500px]" : "h-[350px]"
-        } flex items-center relative`}
+        } flex items-center relative text-center`}
       >
         <div className='w-full z-10'>
           <div className='mb-8'>
